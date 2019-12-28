@@ -112,20 +112,13 @@ class App extends React.Component {
   						<PanelHeader>BMX|MTB Kaliningrad</PanelHeader>
   							<Group title="Недавние публикации">
   								<HorizontalScroll id="EXAMPLE_TABS_LIST">
-  										<div >
-  											<img style={img_block} alt=""src={'https://sun9-32.userapi.com/c857416/v857416518/112273/9OFW9A7PzV4.jpg'}></img>
+  										<div style={{ display: 'flex' }} >
+  											<img style={img_block} alt="" src={'https://sun9-32.userapi.com/c857416/v857416518/112273/9OFW9A7PzV4.jpg'}></img>
   											<div>
   												<Avatar size={32} style={{ marginBottom: 8 }}><Icon24User /></Avatar>
   												<Cell>Степан Федорович </Cell>
   											</div>
   									 </div>
-  									 <div >
-  										 <img style={img_block} alt="" src={'https://sun9-32.userapi.com/c857416/v857416518/112273/9OFW9A7PzV4.jpg'}></img>
-  										 <div>
-  											 <Avatar size={32} style={{ marginBottom: 8 }}><Icon24User /></Avatar>
-  											 <Cell>Степан Федорович </Cell>
-  										 </div>
-  									</div>
   							</HorizontalScroll>
   						 </Group>
   						</Panel>
@@ -153,8 +146,8 @@ class App extends React.Component {
 }
 
 const img_block = {
-	 height:124,
-	 width:124,
+	 height:80,
+	 width:80,
 	 borderColor:'grey',
 	 borderWidth:'3px'
 };
